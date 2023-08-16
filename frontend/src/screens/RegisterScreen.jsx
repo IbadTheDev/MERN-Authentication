@@ -21,7 +21,7 @@ const RegisterScreen = () => {
     <FormContainer>
         <h1>Sign Up</h1>
 
-        <Form onsubmit={ submitHandler }>
+        <Form onSubmit={ submitHandler }>
         <Form.Group className='my-2' controlID='name'>
                 <Form.Label>Name</Form.Label>
                 <Form.Control
@@ -76,4 +76,4 @@ const RegisterScreen = () => {
   )
 }
 
-export default RegisterScreen
+export default RegisterScreen;

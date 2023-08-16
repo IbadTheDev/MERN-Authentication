@@ -6,13 +6,12 @@ const App = () => {
   return (
     <>
     <Header/>
-    <Container classname='my-2'>
+    <Container className='my-2'>
     <Outlet/>
     </Container>
-   
     </>
     
   );
 };
 
-export default App
+export default App;
